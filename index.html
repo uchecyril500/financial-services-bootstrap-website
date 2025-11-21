@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Bootstrap | Crownrise Finance</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/boostrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/crownfinance.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8de301ac36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="home m-2">
+
+  <!-- Top contact / address bar -->
+  <div class="row mx-auto text-start head-1 py-5">
+    <div class="col-md-1"></div>
+
+    <div class="col-md-2">
+      <a href="#">
+        <img src="/Images/Crownrise-Logo-navhead.png" alt="Crownrise Finance Logo">
+      </a>
+    </div>
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-3">
+      <a href="#">
+        <span><i class="fa-solid fa-location-dot fw-bolder me-1"></i></span>
+        <span class="text-dark fw-bolder">14b, Michael Adekoya Street</span>
+        <p class="ms-4 mb-0">Ilupeju, Lagos.</p>
+      </a>
+    </div>
+
+    <div class="col-md-2">
+      <a href="#">
+        <span><i class="fa-solid fa-clock me-1"></i></span>
+        <span class="text-dark fw-bolder">Monday to Friday</span>
+        <p class="ms-4 mb-0">8:00 AM - 5:00 PM</p>
+      </a>
+    </div>
+
+    <div class="col-md-3">
+      <a href="#">
+        <span><i class="fa-solid fa-phone me-1"></i></span>
+        <span class="text-dark fw-bolder">info@crownrisefinanceplc.ng</span>
+        <p class="ms-4 mb-0">+234(0)812 653 2815</p>
+      </a>
+    </div>
+
+    <div class="col-md-1"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-danger nav mx-1">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="nav2 collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto" id="mainNav">
+          <li class="nav-item nav2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Our Company</a></li>
+              <li><a class="dropdown-item" href="#">Our History</a></li>
+              <li><a class="dropdown-item" href="#">Our Board of Directors</a></li>
+              <li><a class="dropdown-item" href="#">Management Team</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              Our Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#lending">Loan Services</a></li>
+              <li><a class="dropdown-item" href="#leasing">Leasing Services</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              Investment Product
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Retirement Scheme (CRESH)</a></li>
+              <li><a class="dropdown-item" href="#">Fixed Term Account (CFTA)</a></li>
+              <li><a class="dropdown-item" href="#">Prime Account (CPA)</a></li>
+              <li><a class="dropdown-item" href="#">Education Scheme Account (CREDUS)</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#careers">Careers</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Carousel -->
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Images/Carousel-1.jpg" class="d-block w-100" alt="Loan options banner">
+      </div>
+      <div class="carousel-item">
+        <img src="/Images/Carousel-2.jpg" class="d-block w-100" alt="Equipment lease financing banner">
+      </div>
+      <div class="carousel-item">
+        <img src="/Images/Carousel-3.jpg" class="d-block w-100" alt="Financial advisor banner">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Core values -->
+  <div class="core-values mt-5" id="about">
+    <div class="text-1 text-center py-4">
+      <h3 class="text-danger fs-1">Our core values</h3>
+      <p class="fs-6 mt-3">We build values on the hinges of experience, integrity and consistency.</p>
+    </div>
+
+    <div class="text-2 d-flex mx-auto mt-5 justify-content-between">
+      <div class="experience d-flex justify-content-around">
+        <div class="logo-experience">
+          <img src="/Images/experience-logo.jpg" alt="Experience icon">
+        </div>
+        <div class="experience-text ms-2 me-3">
+          <h4>Experience</h4>
+          <p class="text-secondary">
+            With experience as our fulcrum, we have gathered all you will ever require to succeed.
+          </p>
+        </div>
+      </div>
+
+      <div class="integrity d-flex justify-content-around">
+        <div class="logo-integrity">
+          <img src="/Images/integrity-logo.jpg" alt="Integrity icon">
+        </div>
+        <div class="integrity-text ms-2">
+          <h4>Integrity</h4>
+          <p class="text-secondary">
+            We believe in the good name principle; therefore we stake our neck to your service.
+          </p>
+        </div>
+      </div>
+
+      <div class="consistency d-flex justify-content-around">
+        <div class="logo-consistency">
+          <img src="/Images/consistency-logo.jpg" alt="Consistency icon">
+        </div>
+        <div class="consistency-text ms-2">
+          <h4>Consistency</h4>
+          <p class="text-secondary">
+            We are here today because we have always met your demands, and we plan to be here much longer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="about card text-center mb-3 ms-auto me-auto border-0">
+    <div class="card-body">
+      <h5 class="card-title text-warning mt-5 fs-1">About us</h5>
+      <p class="card-text fs-5 text-center mx-auto text-light" style="width: 80%;">
+        We are a top-notch, CBN Licensed Financial Institution managed by a group of upwardly mobile,
+        result-oriented and dynamic individuals driven with determination and competence. Over the years,
+        we have built a solid reputation for being reliable and dependable, with INTEGRITY as our watchword.
+      </p>
+    </div>
+  </div>
+
+  <!-- Lending services -->
+  <div class="lending-service" id="lending">
+    <h3 class="text-center pt-5">Lending Services</h3>
+
+    <div class="cards-section row">
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-1.png" class="card-img-top img-fluid" alt="Personal loan"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">Personal Loan and Salary Advance</a>
+          <p class="card-text">
+            Short term loans for salary earners and individuals with regular monthly income.
+          </p>
+          <button class="btn read-more" data-product="Personal Loan and Salary Advance">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-2.png" class="card-img-top img-fluid" alt="Trade finance"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">Trade Finance</a>
+          <p class="card-text">
+            Financing of various trading groups and individuals through flexible repayment patterns.
+          </p>
+          <button class="btn read-more" data-product="Trade Finance">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-3.png" class="card-img-top img-fluid" alt="Loan syndication"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">Loan Syndication</a>
+          <p class="card-text">
+            Arranging syndicated loans with other finance houses for large borrowers.
+          </p>
+          <button class="btn read-more" data-product="Loan Syndication">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-4.png" class="card-img-top img-fluid" alt="SME loan"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">SME’s And Working Capital Loan</a>
+          <p class="card-text">
+            Supporting the management and sustainability of small and medium businesses.
+          </p>
+          <button class="btn read-more" data-product="SME’s And Working Capital Loan">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leasing services -->
+  <div class="leasing-service" id="leasing">
+    <h3 class="text-center pt-5">Leasing Services</h3>
+
+    <div class="row cards-section mt-5">
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-1.png" class="card-img-top" alt="SME equipment lease"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">SME Asset And Equipment Lease</a>
+          <p class="card-text">
+            Designed for business owners, hospitals, merchants and industrialists.
+          </p>
+          <button class="btn read-more" data-product="SME Asset And Equipment Lease">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-2.png" class="card-img-top" alt="Vehicle lease"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">Vehicle Lease</a>
+          <p class="card-text">
+            A seamless way of purchasing cars through flexible contractual terms.
+          </p>
+          <button class="btn read-more" data-product="Vehicle Lease">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card border-0 col-sm-12 col-md-6 col-lg-3 g-5">
+        <a href="#"><img src="/Images/card-3.png" class="card-img-top" alt="Household items lease"></a>
+        <div class="card-body">
+          <a href="#" class="card-title">Household Items Lease</a>
+          <p class="card-text">
+            Equipment lease financing for various household items for salary earners and self-employed clients.
+          </p>
+          <button class="btn read-more" data-product="Household Items Lease">
+            read more <span><i class="fa-solid fa-greater-than"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 g-5"></div>
+    </div>
+  </div>
+
+  <!-- Request a call back -->
+  <div class="form" id="contact">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 card border-0 bg-transparent text-light text-center">
+        <div class="card-body text-form card-request">
+          <h5 class="fw-bolder fs-4 text-center">
+            <span class="fs-4 text-center">REQUEST</span> A CALL BACK
+          </h5>
+          <p class="card-text fs-6">
+            Would you like to speak to one of our financial advisers over the phone?
+            Just submit your details and we’ll be in touch shortly. You can also e-mail
+            us for any further concern.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-6 footer-row">
+        <form id="callbackForm">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="fullName"
+                   placeholder="Full Name" style="color: black;" required>
+          </div>
+
+          <select class="form-select mb-3" id="discussionTopic" required>
+            <option value="">I would like to discuss</option>
+            <option value="Investment Product">Investment Product</option>
+            <option value="Loan Services">Loan Services</option>
+            <option value="Leasing Services">Leasing Services</option>
+          </select>
+
+          <div class="mb-3">
+            <input type="tel" class="form-control" id="phoneNumber"
+                   placeholder="Phone Number" style="color: black;" required>
+          </div>
+
+          <button type="submit" class="btn btn-warning w-50">Submit</button>
+
+          <!-- Success message (hidden by default, shown via JS) -->
+          <div id="callbackMessage" class="alert alert-success mt-3 d-none" role="alert">
+            Thank you! We have received your request and will call you back shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="row footer-2">
+      <div class="col-sm-6 col-md-3 col-lg-4 mb-4 mb-sm-0">
+        <div class="card border-0 bg-transparent text-white">
+          <div class="card-body card-footer">
+            <a href="#">
+              <img src="/Images/crown-finance-logo.jpg" class="card-img-top border border-black" alt="Crownrise Finance logo">
+            </a>
+            <p class="card-text my-4">
+              We are a top-notch, CBN Licensed Financial Institution managed by a group of upwardly
+              mobile, result-oriented and dynamic individuals driven with determination and competence.
+            </p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3 col-lg-4">
+        <div class="card border-0 bg-transparent text-white">
+          <div class="card-body">
+            <h5 class="card-title">Contact</h5>
+            <hr>
+            <p class="card-text">14b, Michael Adekoya Street,</p>
+            <p class="card-text">Ilupeju, Lagos.</p>
+            <p class="card-text">info@crownrisefinanceplc.ng</p>
+            <p class="card-text">+234(0)812 653 2815</p>
+            <hr>
+            <p class="card-text">Monday to Friday</p>
+            <p class="card-text">8:00 AM – 5:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card border-0 bg-transparent text-white">
+          <div class="card-body">
+            <h5 class="card-title">OUR PRODUCTS AND SERVICES</h5>
+            <hr>
+            <div class="product-flex row">
+              <div class="col-6">
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Loan Services
+                </p></a>
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Retirement Scheme (CRESH)
+                </p></a>
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Prime Account (CPA)
+                </p></a>
+              </div>
+
+              <div class="col-6">
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Leasing Services
+                </p></a>
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Fixed Term Account (CFTA)
+                </p></a>
+                <a href="#"><p class="card-text text-white">
+                  <span><i class="fa-solid fa-greater-than text-warning me-2"></i></span>Education Scheme Account (CREDUS)
+                </p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+</div>
+
+<!-- Bootstrap JS bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="/Javascript/crownfinnace.js"></script>
+</body>
+</html>
