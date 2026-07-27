@@ -1,0 +1,395 @@
+
+        /* Header 1-design here */
+        body{
+            font-size: 18px;
+        }
+
+        .head-1 a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .head-1 span{
+            color: brown;
+            font-size: 15px;
+
+        }
+
+
+
+        .col-md-2 img{
+            width: 200px;
+            height: 50px;
+        }
+
+        
+
+
+
+        /* Header-2 design header */
+
+        .nav2  a{
+            color: whitesmoke;
+            /* background-color: blue; */
+            width: 100%;
+            margin: 0px 10px;
+            font-size: 18px;
+        }
+
+        .nav2 a:hover{
+            color: yellow;
+        }
+
+
+        .dropdown-menu a{
+            color: black;
+
+        }
+
+        .dropdown-menu a:hover{
+            color: black;
+            background-color: yellowgreen;
+            border-radius: 10px;
+            width: auto;
+
+        }
+
+
+
+
+        /* OUR CORE VALUES SECTION */
+       
+        .core-values{
+            height: 60vh;
+        }
+
+        .text-2{
+            width: 80%;
+        }
+
+        .text-2 p{
+            font-size: 16px;
+        }
+
+        /* Core values logos only */
+            .core-values img {
+            width: 50px;
+        }
+
+
+
+
+
+            
+        /* About us section */
+        .about{
+            background-color: rgb(220, 170, 186);
+            height: 40vh;
+        }
+
+
+
+
+     /* LENDING AND LEASING SERVICE SECTION */
+
+         .cards-section{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+         }
+
+
+
+         a.card-title{
+            color: brown;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+         }
+
+        p.card-text{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .card-body span{
+            color: brown;
+            font-size: 14px;
+        }
+
+/* Lending services read-more buttons */
+        .lending-service .btn.read-more {
+            font-size: smaller;
+            text-transform: capitalize;
+            background-color: rgb(202, 78, 78);
+            color: white;
+            border-radius: 4px;
+    }
+
+    .lending-service .btn.read-more span {
+        color: white;
+        font-size: 8px;
+    }
+
+      
+    .lending-service .btn.read-more:hover {
+    background-color: white;
+    color: brown;
+}
+          
+/* Leasing services read-more buttons */
+        .leasing-service{
+            /* background-color: blue; */
+            padding: 50px 0px;
+         }
+
+ .leasing-service .btn.read-more {
+    font-size: smaller;
+    text-transform: capitalize;
+    background-color: rgb(202, 78, 78);
+    color: white;
+    border-radius: 4px;
+}
+
+.leasing-service .btn.read-more span {
+    color: white;
+    font-size: 8px;
+}
+
+    .leasing-service .btn.read-more:hover {
+    background-color: white;
+    color: brown;
+}
+
+
+
+
+         /* form section-footer */
+
+
+
+         .form{
+            background-color: rgb(58, 7, 7);
+            height: 65vh;
+            padding-top: 45px;
+           
+         }
+
+         .call-back h4 span{
+            color: rgb(118, 118, 11);  
+         }
+
+          .card-request{
+            /* background-color: blueviolet; */
+            width: 50%;
+            margin: 0px auto;
+            margin-top: 50px;
+          }
+
+         input[ type=text ]{
+            width : 80%;
+            border-radius: 0px;
+            height: 50px;
+            margin-bottom: 40px;
+         }
+
+           .form-select {
+            width : 80%;
+            border-radius: 0px;
+            height: 50px; 
+        }
+
+
+           input[ type=tel ]{
+            width : 80%;
+            border-radius: 0px;
+            height: 50px;
+            margin: 40px  0;
+         }
+
+
+         /* Footer Design is here */
+        .footer{
+            background-color: rgb(128, 14, 14);
+        }
+
+        .footer-2{
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .card-footer img{
+            width: 150px;
+            height: 70px;
+        }
+
+       .product-flex a{
+        text-decoration: none;
+      
+       }
+
+
+                /* Active navbar link styling */
+        .nav2 a.active,
+        .nav2 .nav-link.show {
+            color: yellow;
+            font-weight: 600;
+        }
+
+
+     
+
+
+       
+       /* Mobile Responsiveness */    /* Mobile Responsiveness */     /* Mobile Responsiveness */
+
+                                        /* Media queries -Mobile  */ 
+    
+
+
+
+       /* first  media query- tablet */
+
+
+       @media (min-width: 993px) and (max-width: 1088px){
+
+        .head-1 span {  
+            font-size: 14px;
+        }
+
+          .head-1  {
+            font-size: 14px;
+        }
+        
+       }
+
+
+
+
+
+
+        /* Second Media Query  */
+
+       @media (min-width: 769px) and (max-width: 992px){
+            
+          .col-md-2 img{
+            width: 100px;
+            height: 50px;
+           
+        }
+
+         .head-1{  
+             font-size: 9px;
+        }
+
+         .head-1 span {  
+            font-size: 10px;
+        }
+
+
+
+        .card-request{
+            /* background-color: blueviolet; */
+           width: 90%;
+            margin-top: 20px;
+          }
+
+
+           input[ type=text ]{
+            width : 95%;
+         }
+
+           .form-select {
+            width : 95%;
+        }
+
+
+           input[ type=tel ]{
+            width : 95%;
+         }
+
+          
+
+        /* our core vLUES SECTION */
+        .text-2{
+        /* background-color: brown; */
+        width: 90%;
+        }
+
+
+        /* ABOUT US SECTION */
+        .about{
+            /* background-color: black; */
+            margin-top: 85px;
+            height: 50vh;
+        }
+
+
+        /* footer */
+
+        .footer-2{
+            width: 100%;
+            
+        }
+
+        .card-footer img{
+            width: 150px;
+            height: 80px;
+        }
+ }
+
+
+
+    /* Third Media Query */
+
+
+    @media (min-width: 500px) and (max-width: 768px){
+
+
+    /* our core vLUES SECTION */
+       .text-2{
+        /* background-color: brown; */
+        flex-direction: column;
+       
+       }
+
+
+    /* ABOUT US SECTION */
+     .about{
+           background-color: rgb(220, 170, 186);
+            margin-top: 200px;
+            height: 60vh;
+    }
+
+
+    /* FORM FOOTER and REQUEST A CALL  CODE SECTION */
+
+    .card-request{
+        margin-left: 10PX;
+        text-align: left;
+        width: 100%;
+    }
+
+
+    .form{
+            /* background-color: black; */
+            height: 70vh;
+            position: relative;
+        }
+
+        .footer-row{
+            /* background-color: blueviolet; */
+            position: absolute;
+            top: 150px;
+            margin-left: 10px;
+        
+        }
+
+        .text-form  {
+            /* color: blue; */
+            margin-top: -50px;
+        }
+}
+
+   
